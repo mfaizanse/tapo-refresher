@@ -1,0 +1,21 @@
+clean_cache:
+  name: Clean Tapo Cache
+  description: Clears the KLAP session cache of a Tapo plug via local RPC.
+  fields:
+    ip_address:
+      name: IP Address
+      description: Local IP of the Tapo plug (e.g. 192.168.178.40).
+      required: true
+      example: "192.168.178.40"
+      selector:
+        text:
+    action:
+      name: Action
+      description: "refresh_session: flush KLAP session silently (default). reboot: full MCU restart (causes brief power interruption)."
+      required: false
+      default: refresh_session
+      selector:
+        select:
+          options:
+            - refresh_session
+            - reboot

@@ -1,0 +1,86 @@
+{
+  "config": {
+    "step": {
+      "credentials": {
+        "title": "Tapo Credentials",
+        "data": {
+          "username": "Tapo account email",
+          "password": "Tapo account password"
+        }
+      },
+      "add_plug": {
+        "title": "Add Plug",
+        "data": {
+          "ip": "IP address",
+          "name": "Friendly name"
+        }
+      },
+      "add_another": {
+        "title": "Plug Added",
+        "description": "Plug '{name}' ({ip}) added."
+      },
+      "schedule": {
+        "title": "Schedule",
+        "data": {
+          "schedule_unit": "Frequency",
+          "schedule_interval": "Every N (minutes or hours)",
+          "schedule_time": "Time (HH:MM, for daily only)"
+        }
+      },
+      "notifications": {
+        "title": "Notifications",
+        "data": {
+          "notify_service": "Notification service",
+          "telegram_chat_id": "Telegram chat ID",
+          "mobile_app_device": "Mobile app device name",
+          "notify_on_success": "Notify on success"
+        }
+      }
+    },
+    "error": {
+      "invalid_ip": "Invalid IPv4 address",
+      "invalid_auth": "Invalid username or password",
+      "cannot_connect": "Cannot connect to plug at this IP",
+      "invalid_interval": "Interval must be at least 1",
+      "minutes_min": "Minimum interval is 5 minutes"
+    }
+  },
+  "options": {
+    "step": {
+      "add_plug": {
+        "title": "Add Plug",
+        "data": {
+          "ip": "IP address",
+          "name": "Friendly name"
+        }
+      },
+      "add_another": {
+        "title": "Plug Added",
+        "description": "Plug '{name}' ({ip}) added."
+      },
+      "remove_plug": {
+        "title": "Remove Plug",
+        "data": {
+          "plug_to_remove": "Select plug to remove"
+        }
+      },
+      "schedule": {
+        "title": "Schedule",
+        "data": {
+          "schedule_unit": "Frequency",
+          "schedule_interval": "Every N (minutes or hours)",
+          "schedule_time": "Time (HH:MM, for daily only)"
+        }
+      },
+      "notifications": {
+        "title": "Notifications",
+        "data": {
+          "notify_service": "Notification service",
+          "telegram_chat_id": "Telegram chat ID",
+          "mobile_app_device": "Mobile app device name",
+          "notify_on_success": "Notify on success"
+        }
+      }
+    }
+  }
+}
